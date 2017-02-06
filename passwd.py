@@ -12,10 +12,6 @@ for usuario in usuarios:
 	users[nick] = shell
 
 try:	
-	print('***Imprimimos el diccionario***')
-	for user in users:		#imprimimos el diccionario completo
-			print(user, users[user])
-	print('******')
 
 	print('User root: ',users['root'])	#imprime el value de la key root
 	print('User imaginario',users['imaginario'])
@@ -23,5 +19,4 @@ try:
 except KeyError:	#Si no encuentra un usuario, elevamos la excepcion
 	print("User not found")
 
-print('Numero de usuarios: ',len(users))
 fich.close()
