@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-# 13.4 Ficheros y listas
+# 13.5 Ficheros,diccionarios y excepciones
 
 fich = open("/etc/passwd","r")
 usuarios = fich.readlines()
